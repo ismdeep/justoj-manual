@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'JustOJ手册'
+project = u'JustOJ手册'
 copyright = '2018, ismdeep'
 author = 'ismdeep'
 
