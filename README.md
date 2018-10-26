@@ -1,0 +1,2 @@
+# justoj-manual
+JustOJ Manual
