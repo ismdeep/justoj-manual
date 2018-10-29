@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>判题状态解释 &#8212; JustOJ手册 0.0.1 文档</title>
+    <title>我该使用什么样的开发环境？ &#8212; JustOJ手册 0.0.1 文档</title>
     <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
@@ -17,7 +17,7 @@
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="搜索" href="../search.html" />
-    <link rel="prev" title="Java 问题" href="java.html" />
+    <link rel="prev" title="我可以使用哪些编程语言？" href="which-language-can-i-use.html" />
    
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
   
@@ -35,71 +35,15 @@
           <div class="body" role="main">
             
   <div class="section" id="id1">
-<h1>判题状态解释<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<h1>我该使用什么样的开发环境？<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
+<p>C/C++语言，Windows下推荐使用Code::Blocks</p>
+<p>Java，无论是OpenJDK还是官方JDK都行。推荐使用1.7及以上版本。</p>
+<p>Python2/3 均建议使用python.org官方发布的运行程序。</p>
 <ul class="simple">
-<li>Accepted[答案正确]</li>
+<li>另外推荐JetBrains系列的环境。个人觉得真的很不错。</li>
 </ul>
-<p>提交的代码在规定的时间内通过了所有的后台数据。恭喜你，你完成了该题目。</p>
-<ul class="simple">
-<li>Wrong Answer[答案错误]</li>
-</ul>
-<p>提交的代码并没有完全通过所有的后台数据。</p>
-<ul class="simple">
-<li>Compiling[正在编译]</li>
-</ul>
-<p>服务器正在编译你的代码。</p>
-<ul class="simple">
-<li>Compile Error[编译错误]</li>
-</ul>
-<p>代码未通过编译，请在根据编译的错误信息修改代码后提交。</p>
-<ul class="simple">
-<li>Compile OK[编译通过]</li>
-</ul>
-<p>代码通过了编译。</p>
-<ul class="simple">
-<li>Memory Limit Exceed[内存超限]</li>
-</ul>
-<p>每个题目都有运行时内存占用的最大限制。你的程序在运行的过程中使用的内存超过了此限制。</p>
-<ul class="simple">
-<li>Output Limit Exceed[输出超限]</li>
-</ul>
-<p>程序输出了太多的数据。这有可能是由你的程序进入了死循环造成的。</p>
-<ul class="simple">
-<li>Pending[等待判题]</li>
-</ul>
-<p>程序提交成功，等待服务器判题。</p>
-<ul class="simple">
-<li>Runtime Error[运行错误]</li>
-</ul>
-<dl class="docutils">
-<dt>你的程序在运行的过程中报错了。有可能是由以下操作造成的：</dt>
-<dd><ol class="first last loweralpha simple">
-<li>访问了受保护的系统内存。</li>
-<li>数组越界，即访问了不存在的数组下标对应的数组元素。如：int a[10];这里a的下标是 0 ~ 9，然后在使用的时候访问了 a[10]这个元素，这就是数组越界。</li>
-<li>除零操作。即使用0作为除数也会发生运行错误。如： c = a / 0;</li>
-<li>调用了系统函数。为了服务器的安全，程序是不允许调用系统函数的。如：system()函数</li>
-<li>栈溢出。这可能是你使用递归函数时，函数递归调用太深造成的。</li>
-</ol>
-</dd>
-</dl>
-<ul class="simple">
-<li>Rejudging[等待重判]</li>
-</ul>
-<p>题目正在等待重新判题。</p>
-<ul class="simple">
-<li>Running[正在运行]</li>
-</ul>
-<p>程序正在运行。</p>
-<ul class="simple">
-<li>Submit OK[提交成功]</li>
-</ul>
-<p>代码提交成功</p>
-<ul class="simple">
-<li>Time Limit Exceed[时间超限]</li>
-</ul>
-<p>每个题目都有程序的运行时间限制。如果你的程序没有在规定的时间内运行完毕，那么就会出现“时间超限”。在这个时候，你需要考虑优化你的代码。采用更快的算法。</p>
 </div>
 
 
@@ -122,8 +66,11 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../intro.html">简介</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../faq.html">FAQ</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="what-is-justoj.html">什么是JustOJ？</a></li>
 <li class="toctree-l2"><a class="reference internal" href="java.html">Java问题</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">判题状态解释</a><ul class="simple">
+<li class="toctree-l2"><a class="reference internal" href="status-explanation.html">判题状态解释</a></li>
+<li class="toctree-l2"><a class="reference internal" href="which-language-can-i-use.html">我可以使用哪些编程语言？</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">我该使用什么样的开发环境？</a><ul class="simple">
 </ul>
 </li>
 </ul>
@@ -135,7 +82,7 @@
 <ul>
   <li><a href="../index.html">Documentation overview</a><ul>
   <li><a href="../faq.html">FAQ</a><ul>
-      <li>Previous: <a href="java.html" title="上一章">Java 问题</a></li>
+      <li>Previous: <a href="which-language-can-i-use.html" title="上一章">我可以使用哪些编程语言？</a></li>
   </ul></li>
   </ul></li>
 </ul>
@@ -172,7 +119,7 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../_sources/faq/status-explanation.rst.txt"
+      <a href="../_sources/faq/which-ide-should-i-use.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
