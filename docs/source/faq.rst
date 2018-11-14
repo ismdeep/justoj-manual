@@ -6,6 +6,7 @@ FAQ
 
    什么是JustOJ？<faq/what-is-justoj>
    Java问题 <faq/java>
+   Python中文编码问题 <faq/python3-utf8>
    判题状态解释 <faq/status-explanation>
    我可以使用哪些编程语言？<faq/which-language-can-i-use>
    我该使用什么样的开发环境？<faq/which-ide-should-i-use>
