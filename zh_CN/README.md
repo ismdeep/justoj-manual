@@ -20,3 +20,13 @@ https://oj.ismdeep.com (供所有人访问，速度稍慢，但安全。)
 
 ## 0x04 判题状态解释
 
+
+
+
+<script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+            "HTML-CSS": {linebreaks: {automatic: true}}
+        });
+</script>
+<script src="//cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
