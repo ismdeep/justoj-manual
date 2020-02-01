@@ -1,2 +1,2 @@
-# justoj-manual
-JustOJ Manual
+# JustOJ Manual（JustOJ在线手册）
+
